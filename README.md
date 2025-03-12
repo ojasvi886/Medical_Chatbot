@@ -19,8 +19,10 @@ Ensure you have Python installed on your system. If not, download and install it
   ```
 
 ### 3. Run the Application
-- Execute the following command to start the application:
+- Execute the following commands in sequence:
   ```
+  python create_memory_for_llm.py
+  python connect_memory_with_llm.py
   streamlit run medibot.py
   ```
 
